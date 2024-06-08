@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 30px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    border-bottom: #0779e4 3px solid;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="file"],
+form input[type="text"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form button:hover {
+    background-color: #0779e4;
+}
+
+.search-results {
+    background: #fff;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-results h2 {
+    margin-top: 0;
+}
+
+.search-results ul {
+    list-style: none;
+    padding: 0;
+}
+
+.search-results li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.search-results li:last-child {
+    border-bottom: none;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #333;
+    text-align: center;
+}
